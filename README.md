@@ -1,7 +1,23 @@
 # Crepuscular-URP
 # Installation:
-copy the link and paste in:
+Copy and paste in Package Manager:
 
 ```C#
 https://github.com/ARtronClassicStudio/Crepuscular-URP.git
 ```
+![image](https://user-images.githubusercontent.com/68843488/226684938-018e2bd4-7abd-478c-b29f-c84c7bae7bb2.png)
+
+Wait for compilation and this will complete the installation of the package.
+
+# Usage:
+
+Select your URP-Renderer asset and add to it "Crepuscular Renderer":
+
+![image](https://user-images.githubusercontent.com/68843488/226686154-600a909c-58f7-49a2-9fcf-ad45b46e6497.png)
+
+You only need to add it once, but you can also add more to increase the effect.
+
+Next select your Global Volume and add "Crepuscular" and turn it on. :
+
+![image](https://user-images.githubusercontent.com/68843488/226687065-f7d59da2-f03c-4fe8-955a-45de9157260d.png)
+
