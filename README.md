@@ -21,3 +21,6 @@ Next select your Global Volume and add "Crepuscular" and turn it on. :
 
 ![image](https://user-images.githubusercontent.com/68843488/226687065-f7d59da2-f03c-4fe8-955a-45de9157260d.png)
 
+Effect settings are intuitive and easy, without any complexity.
+
+![image](https://user-images.githubusercontent.com/68843488/226687699-6d019bf0-22cd-4d09-8f59-39e867d7223f.png)
