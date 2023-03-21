@@ -1,4 +1,4 @@
-﻿
+
 Shader "Hidden/Crepuscular" 
 {
 	Properties { [HideInInspector] _MainTex("Main Texture",2D) = "white" {}}
@@ -23,7 +23,7 @@ Shader "Hidden/Crepuscular"
 			float _Decay;
 			float _Exposure;
 			float _IlluminationDecay;
-			float _AutoPoseZ;
+			float4 _ColorRay;
 
 			struct Attributes
 			{
@@ -61,7 +61,7 @@ Shader "Hidden/Crepuscular"
 						uv -= deltaTexCoord;
 						float3 sample = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv).xyz;
 						sample *= _IlluminationDecay * (_Weight / _NumSamples);
-						color += sample;
+						color += sample * _ColorRay;
 						_IlluminationDecay *= _Decay;		
 					
 				}
