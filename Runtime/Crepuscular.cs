@@ -8,6 +8,7 @@ public class Crepuscular : VolumeComponent, IPostProcessComponent
 {
 
     public BoolParameter enabled = new(false, false);
+    public BoolParameter useColorDirectional = new(true, false);
     public ColorParameter color = new(Color.white,false);
     public VolumeParameter<Quality> quality = new() { value = Quality.High};
     public ClampedFloatParameter weight = new(1, 0, 1);
