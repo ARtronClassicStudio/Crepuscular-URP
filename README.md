@@ -28,4 +28,4 @@ Effect settings are intuitive and easy, without any complexity.
 
 ![image](https://user-images.githubusercontent.com/68843488/226687699-6d019bf0-22cd-4d09-8f59-39e867d7223f.png)
 
-There is also support for HDRP and Buildik but they will come later.
+There is also support for HDRP and Built-in but they will come later.
