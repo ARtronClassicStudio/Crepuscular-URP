@@ -75,6 +75,7 @@ public class CrepuscularPass : ScriptableRenderPass
             m_Material.SetFloat(Shader.PropertyToID("_Decay"), 1);
             m_Material.SetFloat(Shader.PropertyToID("_Exposure"), fx.exposure.value);
             m_Material.SetFloat(Shader.PropertyToID("_IlluminationDecay"), fx.illuminationDecay.value);
+            m_Material.SetColor(Shader.PropertyToID("_ColorRay"), fx.color.value);
 
             foreach (var l in renderingData.lightData.visibleLights)
             {
