@@ -75,13 +75,20 @@ public class CrepuscularPass : ScriptableRenderPass
             m_Material.SetFloat(Shader.PropertyToID("_Decay"), 1);
             m_Material.SetFloat(Shader.PropertyToID("_Exposure"), fx.exposure.value);
             m_Material.SetFloat(Shader.PropertyToID("_IlluminationDecay"), fx.illuminationDecay.value);
-            m_Material.SetColor(Shader.PropertyToID("_ColorRay"), fx.color.value);
+            if (!fx.useColorDirectional.value)
+            {
+                m_Material.SetColor(Shader.PropertyToID("_ColorRay"), fx.color.value);
+            }
 
             foreach (var l in renderingData.lightData.visibleLights)
             {
                 if (l.lightType == LightType.Directional)
                 {
                     m_Material.SetVector(Shader.PropertyToID("_LightPos"), renderingData.cameraData.camera.WorldToViewportPoint(renderingData.cameraData.camera.transform.position - l.light.transform.forward));
+                    if (fx.useColorDirectional.value)
+                    {
+                        m_Material.SetColor(Shader.PropertyToID("_ColorRay"), l.light.color);
+                    }
                 }
             }
 
