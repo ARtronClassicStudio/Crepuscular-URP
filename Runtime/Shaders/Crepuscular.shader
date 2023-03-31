@@ -61,7 +61,7 @@ Shader "Hidden/Crepuscular"
 						uv -= deltaTexCoord;
 						float3 sample = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv).xyz;
 						sample *= _IlluminationDecay * (_Weight / _NumSamples);
-						color += sample * _ColorRay;
+						color += sample * _ColorRay.xyz;
 						_IlluminationDecay *= _Decay;		
 					
 				}
