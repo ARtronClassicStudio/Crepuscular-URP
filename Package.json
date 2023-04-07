@@ -1,10 +1,9 @@
 {
   "name": "com.unity.crepuscular",
   "displayName": "Crepuscular Rays",
-  "version": "0.0.1",
+  "version": "0.0.1-preview.1",
   "unity": "2021.3",
   "description": "",
-  "version": "0.0.1-preview.1",
   "license": "MIT",
   "keywords": ["tools","rendering","URP"],
   "dependencies": {},
