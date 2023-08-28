@@ -1,5 +1,8 @@
 # Crepuscular-URP
 
+[Support for Built-in](https://github.com/ARtronClassicStudio/Crepuscular-Built-in)
+
+[Support for HDRP](https://github.com/ARtronClassicStudio/Crepuscular-HDPR)
 
 
 https://user-images.githubusercontent.com/68843488/226691739-b9a3eb28-210b-47bc-8d2a-988a45d48b9f.mp4
@@ -31,5 +34,3 @@ Next select your Global Volume and add "Crepuscular" and turn it on. :
 Effect settings are intuitive and easy, without any complexity.
 
 ![image](https://user-images.githubusercontent.com/68843488/226687699-6d019bf0-22cd-4d09-8f59-39e867d7223f.png)
-
-There is also support for HDRP and Built-in but they will come later.
